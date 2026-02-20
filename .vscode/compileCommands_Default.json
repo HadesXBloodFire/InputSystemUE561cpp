@@ -1,0 +1,26 @@
+[
+	{
+		"file": "C:\\Users\\macie\\Documents\\Unreal Projects\\InputTake2\\Source\\InputTake2\\InputTake2.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\macie\\Documents\\Unreal Projects\\InputTake2\\.vscode\\compileCommands_Default\\InputTake2.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\macie\\Documents\\Unreal Projects\\InputTake2\\Source\\InputTake2\\InputTake2.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\macie\\Documents\\Unreal Projects\\InputTake2\\.vscode\\compileCommands_Default\\InputTake2.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\macie\\Documents\\Unreal Projects\\InputTake2\\Source\\InputTake2\\InputTake2.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\macie\\Documents\\Unreal Projects\\InputTake2\\.vscode\\compileCommands_Default\\InputTake2.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	}
+]
