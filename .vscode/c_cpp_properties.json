@@ -18,6 +18,14 @@
             "intelliSenseMode": "msvc-x64",
             "compileCommands": [
                 "C:\\Users\\macie\\Documents\\Unreal Projects\\InputTake2\\.vscode\\compileCommands_Default.json"
+            ],
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/Intermediate/Build/Win64/UnrealEditor",
+                "C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/EnhancedInput/Source/EnhancedInput/Public",
+                "C:/Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/Engine/Classes",
+                "C:/Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/Core/Public",
+                "${workspaceFolder}/Source/InputTake2/Public"
             ]
         }
     ],

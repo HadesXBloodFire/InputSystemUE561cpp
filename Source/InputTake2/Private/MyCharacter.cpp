@@ -9,13 +9,17 @@ AMyCharacter::AMyCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	FirstPersonCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
-	FirstPersonCamera->SetupAttachment(GetMesh(), TEXT("head"));
+	FirstPersonCamera->SetupAttachment(RootComponent);
+	FirstPersonCamera->SetRelativeLocation(FVector(0.0f, 0.0f, 60.0f));
 	FirstPersonCamera->bUsePawnControlRotation = true;
 
 	GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
 	GetCharacterMovement()->NavAgentProps.bCanCrouch = true;
 	GetCharacterMovement()->MaxWalkSpeedCrouched = CrouchSpeed;
 	GetCharacterMovement()->JumpZVelocity = 600.0f;
+
+	GetCharacterMovement()->CrouchedHalfHeight = 48.0f;
+	GetCharacterMovement()->GetNavAgentPropertiesRef().AgentHeight = 88.0f;
 
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationYaw = true;
